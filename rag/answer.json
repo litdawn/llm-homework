@@ -1,0 +1,42 @@
+[
+  {
+    "question": "什么是大语言模型？",
+    "answer": "大语言模型（LLMs）是显著增强了语言智能领域的模型，这些模型在庞大的语料数据集上进行训练，在各种复杂推理任务中表现出卓越的实证性能。大语言模型通过利用链式思维（CoT）推理技术，在处理复杂推理任务方面表现出色，并展示了其在语言环境中先进的认知能力。\n\n引用文献：\n[1] 论文标题：Igniting Language Intelligence: The Hitchhiker's Guide From\n  Chain-of-Thought Reasoning to Language Agents\n作者：Zhuosheng Zhang, Yao Yao, Aston Zhang, Xiangru Tang, Xinbei Ma, Zhiwei\n  He, Yiming Wang, Mark Gerstein, Rui Wang, Gongshen Liu, Hai Zhao\n详情页：https://arxiv.org/abs/2311.11797\n[2] 论文标题：Towards Better Chain-of-Thought Prompting Strategies: A Survey\n作者：Zihan Yu, Liang He, Zhen Wu, Xinyu Dai, Jiajun Chen\n详情页：https://arxiv.org/abs/2310.04959\n[3] 论文标题：Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs\n作者：Yu Xia, Rui Wang, Xu Liu, Mingyan Li, Tong Yu, Xiang Chen, Julian\n  McAuley, Shuai Li\n详情页：https://arxiv.org/abs/2404.15676\n"
+  },
+  {
+    "question": "形式化软件工程是什么？",
+    "answer": "形式化软件工程是基于数学基础，使用符号表示和分析过程等技术来开发高质量软件的方法。它旨在通过严谨的形式化方法提高软件的正确性和其他质量属性。这些方法最初采用复杂的分析机制，现在正朝着更轻量级、自动化程度更高的方向发展，以期在各种软件工程场景中更广泛地应用。\n\n引用文献：\n[1] 论文标题：Proceedings First Latin American Workshop on Formal Methods\n作者：Nazareno Aguirre (Universidad Nacional de R\\'io Cuarto), Leila Ribeiro\n  (Universidade Federal do Rio Grande do Sul)\n详情页：https://arxiv.org/abs/1401.0564\n[2] 论文标题：A Manifesto for Applicable Formal Methods\n作者：Mario Gleirscher and Jaco van de Pol and Jim Woodcock\n详情页：https://arxiv.org/abs/2112.12758\n[3] 论文标题：Formal Methods: From Academia to Industrial Practice. A Travel Guide\n作者：Marieke Huisman, Dilian Gurov, and Alexander Malkis\n详情页：https://arxiv.org/abs/2002.07279"
+  },
+  {
+    "question": "大语言模型的缩放定理是什么？",
+    "answer": "大语言模型的缩放定理表明，当这些模型具有大量的参数并在接近互联网规模的标记数量上进行训练时，它们的性能会以幂律形式可预测地变化，这种变化与参数数量或数据集大小有关，直到被另一种资源限制。\n\n引用文献：\n[1] 论文标题：Scaling Laws Under the Microscope: Predicting Transformer Performance\n  from Small Scale Experiments\n作者：Maor Ivgi, Yair Carmon and Jonathan Berant\n详情页：https://arxiv.org/abs/2202.06387\n[2] 论文标题：A Solvable Model of Neural Scaling Laws\n作者：Alexander Maloney, Daniel A. Roberts, James Sully\n详情页：https://arxiv.org/abs/2210.16859\n[3] 论文标题：Unraveling the Mystery of Scaling Laws: Part I\n作者：Hui Su, Zhi Tian, Xiaoyu Shen, Xunliang Cai\n详情页：https://arxiv.org/abs/2403.06563\n"
+  },
+  {
+    "question": "代码评审的目标是什么？",
+    "answer": "代码评审的目标是确保软件质量，通过审查和更新代码来提高软件的质量，使系统无错误。此外，代码评审也是软件质量保证的关键实践，有助于识别和减少代码缺陷，提高开发效率，从而对业务产生积极影响。\n\n引用文献：\n[1] 论文标题：The Factors of Code Reviewing Process to Ensure Software Quality\n作者：Shaykh Siddique\n详情页：https://arxiv.org/abs/2107.10375\n[2] 论文标题：Can We Benchmark Code Review Studies? A Systematic Mapping Study of\n  Methodology, Dataset, and Metric\n作者：Dong Wang and Yuki Ueda and Raula Gaikovina Kula and Takashi Ishio and\n  Kenichi Matsumoto\n详情页：https://arxiv.org/abs/1911.08816\n[3] 论文标题：Code Red: The Business Impact of Code Quality -- A Quantitative Study of\n  39 Proprietary Production Codebases\n作者：Adam Tornhill and Markus Borg\n详情页：https://arxiv.org/abs/2203.04374"
+  },
+  {
+    "question": "重复的数据会对In-content Learning产生什么影响？",
+    "answer": "答案： 重复的数据会对In-content Learning产生负面效果，可能导致模型性能严重下降。具体表现为，重复数据可以导致测试损失在训练中途增加，甚至可能使大模型的性能退化到小模型的水平。这种影响可能是由于模型试图记忆重复数据，消耗了大量计算资源，从而影响了其泛化能力。\n\n引用文献：\n[1] 论文标题：Scaling Laws and Interpretability of Learning from Repeated Data\n作者：Danny Hernandez, Tom Brown, Tom Conerly, Nova DasSarma, Dawn Drain,\n  Sheer El-Showk, Nelson Elhage, Zac Hatfield-Dodds, Tom Henighan, Tristan\n  Hume, Scott Johnston, Ben Mann, Chris Olah, Catherine Olsson, Dario Amodei,\n  Nicholas Joseph, Jared Kaplan and Sam McCandlish\n详情页：https://arxiv.org/abs/2205.10487\n[2] 论文标题：Detecting Morphing Attacks via Continual Incremental Training\n作者：Lorenzo Pellegrini, Guido Borghi, Annalisa Franco, Davide Maltoni\n详情页：https://arxiv.org/abs/2307.15105\n[3] 论文标题：Statistical Analysis of Data Repeatability Measures\n作者：Zeyi Wang, Eric Bridgeford, Shangsi Wang, Joshua T. Vogelstein, Brian\n  Caffo\n详情页：https://arxiv.org/abs/2005.11911\n[4] 论文标题：LSH methods for data deduplication in a Wikipedia artificial dataset\n作者：Juan Ciro, Daniel Galvez, Tim Schlippe, David Kanter\n详情页：https://arxiv.org/abs/2112.11478\n"
+  },
+  {
+    "question": "软件工程领域如何适应不同领域？",
+    "answer": "软件工程通过开发能够适应不同领域的平台和方法，如支持大规模需求工程的平台、将需求转换为设计并实施的综合模型、统一需求与代码的框架以及适应复杂系统演化的新兴软件服务平台，来适应不同领域。这些方法和工具旨在改善软件开发流程，解决特定领域内的挑战。\n\n引用文献：\n[1] 论文标题：Needs and Challenges for a Platform to Support Large-scale Requirements\n  Engineering. A Multiple Case Study\n作者：Davide Fucci, Cristina Palomares, Dolors Costal, Xavier Franch, Mikko\n  Raatikainen, Martin Stettinger, Zijad Kurtanovic, Tero Kojo, Lars Koenig,\n  Andreas Falkner, Gottfried Schenner, Fabrizio Brasca, Tomi M\\\"annist\\\"o,\n  Alexander Felfernig, Walid Maalej\n详情页：https://arxiv.org/abs/1808.02284\n[2] 论文标题：Diagrammatic Formalism for Complex Systems: More than One Way to\n  Eventize a Railcar System\n作者：Sabah Al-Fedaghi\n详情页：https://arxiv.org/abs/2103.02820\n[3] 论文标题：Unifying Requirements and Code: an Example\n作者：Alexandr Naumchev, Bertrand Meyer, Victor Rivera\n详情页：https://arxiv.org/abs/1602.05395\n"
+  },
+  {
+    "question": "区块链如何保证安全？",
+    "answer": "区块链通过使用分布式数据库和共识机制来保证安全，它允许在无需中央权威的情况下验证所有交易，同时通过加密技术保护数据的完整性和隐私。\n\n引用文献：\n[1] 论文标题：The development of blockchain technology\n作者：Jala Quluzada, Sabnam Maharramli\n详情页：https://arxiv.org/abs/1912.06650\n[2] 论文标题：Blockchain Systems, Technologies and Applications: A Methodology\n  Perspective\n作者：Bin Cao, Zixin Wang, Long Zhang, Daquan Feng, Mugen Peng, Lei Zhang\n详情页：https://arxiv.org/abs/2105.03572\n[3] 论文标题：Blockchain Technology: Introduction, Integration and Security Issues\n  with IoT\n作者：Sunil Kumar Singh, Sumit Kumar\n详情页：https://arxiv.org/abs/2101.10921"
+  },
+  {
+    "question": "指令微调的目标是什么？",
+    "answer": "指令微调的目标是增强大型语言模型遵循指令的能力，具体包括优化模型在特定任务上的表现，减少训练所需的数据量，提高数据效率，并通过阶段性的逐步训练来改进模型对复杂指令的处理能力。离子阱系统利用了离子的内部能级间跃迁来编码量子信息，并通过激光操控实现量子门操作。\n\n引用文献：\n[1] 论文标题：Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low\n  Training Data Instruction Tuning\n作者：Hao Chen, Yiming Zhang, Qi Zhang, Hantao Yang, Xiaomeng Hu, Xuetao Ma,\n  Yifan Yanggong, Junbo Zhao\n详情页：https://arxiv.org/abs/2305.09246\n[2] 论文标题：Phased Instruction Fine-Tuning for Large Language Models\n作者：Wei Pang and Chuan Zhou and Xiao-Hua Zhou and Xiaojie Wang\n详情页：https://arxiv.org/abs/2406.04371\n[3] 论文标题：A Survey on Data Selection for LLM Instruction Tuning\n作者：Jiahao Wang, Bolin Zhang, Qianlong Du, Jiajun Zhang, Dianhui Chu\n详情页：https://arxiv.org/abs/2402.05123"
+  },
+  {
+    "question": "离子阱计算机的原理是什么？",
+    "answer": "离子阱计算机的原理是利用在超高真空环境中被捕获的原子离子进行量子信息处理。离子阱计算机通过捕获离子作为量子比特（qubits），并利用量子门操作来执行量子计算任务。\n\n引用文献：\n[1] 论文标题：Quantum computing with trapped ions\n作者：H. Haeffner, C.F. Roos, R. Blatt\n详情页：https://arxiv.org/abs/0809.4368\n[2] 论文标题：Ion-trap quantum information processing: experimental status\n作者：D. Kielpinski\n详情页：https://arxiv.org/abs/0805.2450\n[3] 论文标题：Realizing coherently convertible dual-type qubits with the same ion\n  species\n作者：H.-X. Yang, J.-Y. Ma, Y.-K. Wu, Y. Wang, M.-M. Cao, W.-X. Guo, Y.-Y.\n  Huang, L. Feng, Z.-C. Zhou, and L.-M. Duan\n详情页：https://arxiv.org/abs/2106.14906\n[4] 论文标题：Trapped-ion quantum logic with global radiation fields\n作者：S. Weidt, J. Randall, S. C. Webster, K. Lake, A. E. Webb, I. Cohen, T.\n  Navickas, B. Lekitsch, A. Retzker and W. K. Hensinger\n详情页：https://arxiv.org/abs/1603.03384"
+  },
+  {
+    "question": "人造原子是什么？",
+    "answer": "人造原子是从量子材料中构建的，具有类似于真实原子的离散能级的纳米级电子结构。\n\n引用文献：\n[1] 论文标题：Artificial Atoms Based on Correlated Materials\n作者：Jochen Mannhart, Hans Boschker, Thilo Kopp, Roser Valent\\'i\n详情页：https://arxiv.org/abs/1606.04245\n[2] 论文标题：Vibronic spectroscopy of an artificial molecule\n作者：David Gunnarsson, Jani Tuorila, Antti Paila, Jayanta Sarkar, Erkki\n  Thuneberg, Yuriy Makhlin and Pertti Hakonen\n详情页：https://arxiv.org/abs/0805.1633\n[3] 论文标题：Synthetic Dimensions\n作者：Kaden R. A. Hazzard and Bryce Gadway\n详情页：https://arxiv.org/abs/2306.13658\n[4] 论文标题：Encoding Quantum Mechanics into Pentagonal Geometries for Discovering\n  Novel Two-Dimensional Materials\n作者：Lei Liu, Immanuella Kankam, and Houlong L. Zhuang\n详情页：https://arxiv.org/abs/1808.03409"
+  }
+]
